@@ -1,0 +1,195 @@
+/* body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #1a1a1a;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+  }
+  
+  .keys {
+    display: grid;
+    grid-template-columns: repeat(3, 120px);
+    gap: 15px;
+    margin-bottom: 30px;
+  }
+  
+  .key {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(145deg, #333, #000);
+    border: 2px solid #555;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    height: 120px;
+    width: 120px;
+    cursor: pointer;
+    transition: transform 0.07s ease, box-shadow 0.07s ease;
+  }
+  
+  .key.playing {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.6);
+    border-color: #fff;
+  }
+  
+  kbd {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f1f1f1;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.7);
+    margin-bottom: 8px;
+  }
+  
+  .sound {
+    font-size: 14px;
+    font-style: italic;
+    color: #bbb;
+  }
+  
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .drum-images {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .drum-images img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid #555;
+    background-color: #222;
+  }
+  
+  /* Add responsiveness */
+  @media (max-width: 768px) {
+    .keys {
+      grid-template-columns: repeat(2, 100px);
+      gap: 10px;
+    }
+  
+    .key {
+      height: 100px;
+      width: 100px;
+    }
+  
+    kbd {
+      font-size: 20px;
+    }
+  
+    .sound {
+      font-size: 12px;
+    }
+  }
+   
+   body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    height: 60vh;
+    margin: 0;
+    background-image: url("assets/drumKit.webp");
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+  }
+  
+   
+  
+  .keys {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 30px;
+  }
+  
+  .key {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    background: linear-gradient(145deg, #333, #000);
+    border: 2px solid #555;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    height: 120px;
+    width: 120px;
+    cursor: pointer;
+    transition: transform 0.07s ease, box-shadow 0.07s ease;
+  }
+  
+  .key.playing {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.6);
+    border-color: #fff;
+  }
+  
+  kbd {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f1f1f1;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.7);
+    margin-bottom: 8px;
+  }
+  
+  .sound {
+    font-size: 14px;
+    font-style: italic;
+    color: #bbb;
+  }
+  
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .drum-images {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .drum-images img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%; 
+    border: 2px solid #c9f213;
+    background-color: #ebf656;
+  }
+  
+  /* Add responsiveness */
+  @media (max-width: 768px) {
+    .keys {
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+  
+    .key {
+      height: 100px;
+      width: 100px;
+    }
+  
+    kbd {
+      font-size: 20px;
+    }
+  
+    .sound {
+      font-size: 12px;
+    }
+  }
+  
